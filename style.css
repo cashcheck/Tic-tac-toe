@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 50px auto 50px auto;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: grey;
+    padding: 6px;
+    border: none;
+    transition: 0.2s;
+}
+
+button:hover {
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+#game-container {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: space-between;
+    margin: 50px auto 100px auto;
+    border: solid 3px black;
+}
+
+.game-square {
+    width: 94px;
+    height: 94px;
+    background-color: white;
+    border: solid 3px black;
+    font-size: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.game-square:hover {
+    cursor: pointer;
+}
